@@ -1,12 +1,14 @@
-Push-to-VOX
+Push-to-VOX 
+version 1.0.0
+Donald Beaudry (K1DBO)
 -----------
 
 Push-to-VOX will automatically enable and disable VOX control on
 your Flex 6000 series radio.  It can be controlled with your mouse or
-keyboard through it's on screen interface or with a serial port
+keyboard through its on screen interface or with a serial port
 connected footswitch.
 
-Push-to-VOX does as it's name implies.  Rather than simply acting like
+Push-to-VOX does as its name implies.  Rather than simply acting like
 another MOX button, Push-to-VOX will enable VOX control when the
 footswitch is depressed and disable it when the footswitch is
 released.  Alternately, you can use a quick tap of your foot to enable
@@ -18,13 +20,11 @@ depressed for longer than the preset time period.  A quick tap of the
 footswitch will release the latch.
 
 The footswitch wiring is the same as what's used with SmartSDR CAT to
-map an "Existing" COM port for PTT.  It's a very simple cable.  Wire
+map an "Existing" COM port for PTT.  Its a very simple cable.  Wire
 it so your PTT switch will short pins 7 and 8.  This will raise CTS on
 the COM port and activate the transmitter.
 
-But wait, there's more... for no extra charge you can display an ID
-timer that will obnoxiusly warn you if you forget to reset it every 10
-minutes.
+Also included is an ID timer to obnoxiusly remind you to reset it
+every 10 minutes.
 
-Now what would you pay?
 
